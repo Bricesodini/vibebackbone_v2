@@ -1,0 +1,453 @@
+{
+  "source_commit": "7acf620efbd81ebcadea937a4b63a512c8eb1db1",
+  "source_worktree_dirty": true,
+  "history": "new export history; private original history preserved, not pushed",
+  "files": [
+    {
+      "path": ".backbone-dev/INDEX-before-final-audit.md",
+      "sha256": "f8723d570871013b9970f5a91923bbb28cc10dafa6eca11b562e7536b7b731fb",
+      "size": 10550
+    },
+    {
+      "path": ".backbone-dev/INDEX.md",
+      "sha256": "417b254835dc1624a969604f03f00049dd805a9e808b2aeac88ff32fa91ffb02",
+      "size": 2708
+    },
+    {
+      "path": ".backbone-dev/decisions/2026-09-05-agent-readiness-outcome.md",
+      "sha256": "9f6e6b9be6b9851ebc3b0f83adbbceb55a95ebd64f806073fd62f155aa541211",
+      "size": 3009
+    },
+    {
+      "path": ".backbone-dev/decisions/2026-09-05-agents-entry-outcome.md",
+      "sha256": "1c69347e54df36fe95df4a046dfaf692c6f2214354addc75013abf2a48402a4b",
+      "size": 2889
+    },
+    {
+      "path": ".backbone-dev/decisions/2026-09-05-cross-harness-memory.md",
+      "sha256": "a1ee71f082710b00725dd8ea44d7864a0a7455b7eed12fabf7f8b42d59b03861",
+      "size": 2976
+    },
+    {
+      "path": ".backbone-dev/decisions/2026-09-05-deterministic-prototype-outcome.md",
+      "sha256": "99f0a5a96028928ad998136e55c6c32d80471cc74cb3e987d93fb65f24d84c3c",
+      "size": 1586
+    },
+    {
+      "path": ".backbone-dev/decisions/2026-09-05-equipped-continuity-outcome.md",
+      "sha256": "0991fcb84dbe1b45b01c219134fcef061e69724c1ec86570db09f9bcc1da183f",
+      "size": 4348
+    },
+    {
+      "path": ".backbone-dev/decisions/2026-09-05-l1-outcome.md",
+      "sha256": "336f626714b9cdece1265602af270657ad77771f2768db014d22abf2ed142708",
+      "size": 2541
+    },
+    {
+      "path": ".backbone-dev/decisions/2026-09-05-l1bis-outcome.md",
+      "sha256": "0055260836d6e4eb2b70dea2788d110acdb9c25c9065b4c7d57a53b0f9f31b7d",
+      "size": 2945
+    },
+    {
+      "path": ".backbone-dev/decisions/2026-09-05-scope-and-architecture.md",
+      "sha256": "32f9b475ae0b0466bec7c9cbb1b251be97942312702e7fb016916353088821c5",
+      "size": 5936
+    },
+    {
+      "path": ".backbone-dev/decisions/2026-09-05-sequential-readiness-outcome.md",
+      "sha256": "e7af2aea97d87bddedab559e6c31ad1ab0946f62bb468884a1a7061392134886",
+      "size": 1954
+    },
+    {
+      "path": ".backbone-dev/decisions/2026-09-05-shared-server-contention.md",
+      "sha256": "f1a31e0d8bbb29f4d6549082ae56d1ca3bf9b854971d175f683f48672570e6a3",
+      "size": 3547
+    },
+    {
+      "path": ".backbone-dev/decisions/2026-09-06-minimal-local-core.md",
+      "sha256": "6262e8a540288a7fc1f2f35a81a46eb184f140ec97dd7922f30e15b78364c8ec",
+      "size": 3334
+    },
+    {
+      "path": ".backbone-dev/design/agents-entry-point.md",
+      "sha256": "b6fdd4ae5e7dea59b0e0ee3a8d5b31cd6e6b12f6a32eae4ae2709a7d90729f1a",
+      "size": 6819
+    },
+    {
+      "path": ".backbone-dev/design/architecture.md",
+      "sha256": "410cdc5fc9fa83eaf46f15340779a1107c75796367a3ffa72b920133b2e929e4",
+      "size": 13827
+    },
+    {
+      "path": ".backbone-dev/design/cross-harness-memory.md",
+      "sha256": "53e368b5fffbbabb1ecc7b32a7c8ab9c45edeef765c541d1771b5ca3fcff9657",
+      "size": 5403
+    },
+    {
+      "path": ".backbone-dev/design/deterministic-continuity.md",
+      "sha256": "ed7ccea7e12a26c1b33086cd8048f4588c07d59d7474bdb90bdcb0226ace155b",
+      "size": 7674
+    },
+    {
+      "path": ".backbone-dev/design/dsh-from-pi-reference.md",
+      "sha256": "9b41976e4947d2a49b00676488a30bb4527ed87356a917a7b720cd49b0806909",
+      "size": 6336
+    },
+    {
+      "path": ".backbone-dev/design/local-candidate-contract.md",
+      "sha256": "f301cc4bfeddafc8affb7f452e70d749a30c820334d23626a2c49bea4704b6e5",
+      "size": 2696
+    },
+    {
+      "path": ".backbone-dev/design/memory.md",
+      "sha256": "23375f1ff96dd241e78386d3bc5372e35abb3356c28faaa63f64b2e0fd708286",
+      "size": 14974
+    },
+    {
+      "path": ".backbone-dev/design/vbb-native-mode.md",
+      "sha256": "5ad1b9f30c5b68d9d299ed96acd05f17404bec310a0482f8503e7b6fbfdd66a9",
+      "size": 4655
+    },
+    {
+      "path": ".backbone-dev/evaluations/agent-readiness/report.md",
+      "sha256": "de798fb7d39e598cd454d49941eef4aba2fbb5eb729901bcaaa82a643a8fb4d0",
+      "size": 8067
+    },
+    {
+      "path": ".backbone-dev/evaluations/agent-readiness-sequential/report.md",
+      "sha256": "dba8042912c9e5a9e8e8c564a6b279017c231e3ae25cbe0b3940d4f5c471baea",
+      "size": 7918
+    },
+    {
+      "path": ".backbone-dev/evaluations/agents-common/report.md",
+      "sha256": "fe79471293f9acdef32adb28f635a34d3e0c9c0f0dc8cd896692b0549b7c3825",
+      "size": 1134
+    },
+    {
+      "path": ".backbone-dev/evaluations/agents-common-v2/report.md",
+      "sha256": "c16d88d6c53bd0d5e3dee0b08ec74b9e8a46c6ae245226a9259a9bded7ce870d",
+      "size": 7179
+    },
+    {
+      "path": ".backbone-dev/evaluations/candidate-rc2/report.md",
+      "sha256": "86d19795e39d49d594949c68c747358b2aea056654ea7a7e600a2e83e9865d24",
+      "size": 2901
+    },
+    {
+      "path": ".backbone-dev/evaluations/candidate-rc4/report.md",
+      "sha256": "7f4e741a962df06aa0a562cf82bd8197cd8562237e5cf21d741763feff42b561",
+      "size": 2592
+    },
+    {
+      "path": ".backbone-dev/evaluations/candidate-rc5/report.md",
+      "sha256": "3520cd3052de61bd1ea9729713ecb7866fbcce1240498426d25d88093e671355",
+      "size": 1908
+    },
+    {
+      "path": ".backbone-dev/evaluations/candidate-rc5-native/report.md",
+      "sha256": "8dc3d1a4ab7a593767152a6966eb334ca28c69dc3d2a8828ad174dbb13c3bc96",
+      "size": 1427
+    },
+    {
+      "path": ".backbone-dev/evaluations/candidate-rc5-review/report.md",
+      "sha256": "2702a579faaea610997c125aa9d3edd0f99d5d963818cb6386d29a9242ebe2d9",
+      "size": 999
+    },
+    {
+      "path": ".backbone-dev/evaluations/continuity-confined/report.md",
+      "sha256": "fb951fd1453773f6e68fac0c1ceb12d831edeb3eb65388d0333f231c5c7b3741",
+      "size": 5146
+    },
+    {
+      "path": ".backbone-dev/evaluations/continuity-confined-v2/report.md",
+      "sha256": "22225f549180cc7a3363b3a28b5cd56e7d34d8eb4e8550964b388c79da7d9ab6",
+      "size": 4084
+    },
+    {
+      "path": ".backbone-dev/evaluations/continuity-equipped/report.md",
+      "sha256": "7fbc98ffc1218f58568fbe231d912cf3d4219bf9edf90af7b646fb2a54ce02ee",
+      "size": 8166
+    },
+    {
+      "path": ".backbone-dev/evaluations/continuity-reviewed/report.md",
+      "sha256": "1170492a6fd3512d7d80690476f958a70f7984fe20bc67c12d4d32de1254b402",
+      "size": 5583
+    },
+    {
+      "path": ".backbone-dev/evaluations/final-audit/verdict.md",
+      "sha256": "eecb99f0010f31ca9bd7499d57a1a4cd544fb9e23d88193505a272c44bb7b7a8",
+      "size": 6839
+    },
+    {
+      "path": ".backbone-dev/evaluations/final-memory-reader/report.md",
+      "sha256": "16503fa05bac36135e184729e622ed65119c8eb292df98191b55808c0499cad3",
+      "size": 1743
+    },
+    {
+      "path": ".backbone-dev/evaluations/integrated-2026-09-06/report.md",
+      "sha256": "4463f72c46803d856928b06b6dca0ca4587a310899aee8447472775e45fb336b",
+      "size": 5917
+    },
+    {
+      "path": ".backbone-dev/evaluations/l1/report.md",
+      "sha256": "12f8f2347b0a6e1b22fd0a738e3a794d07d0b08889e5ca71ba6dd63af987f5e7",
+      "size": 5053
+    },
+    {
+      "path": ".backbone-dev/evaluations/l1bis/report.md",
+      "sha256": "19a52c308c19b2a27fec8539da46976a7bea262783e08d914d34ee3861b8da05",
+      "size": 11297
+    },
+    {
+      "path": ".backbone-dev/evaluations/parcel95-chronology/report.md",
+      "sha256": "2f55ccc89126a1f19954fd6f4f0cdd3ff12a8eb802a140ea875ee949c195c479",
+      "size": 3092
+    },
+    {
+      "path": ".backbone-dev/evaluations/parcel95-remediation/report.md",
+      "sha256": "e7239f76055215bdd20ac5809797dc7f98893359fb8e3e9f7657884629a95352",
+      "size": 3625
+    },
+    {
+      "path": ".backbone-dev/evaluations/qualification-rc2/report.md",
+      "sha256": "604544aa18ea45d756b26b243696c39c9701667b4527230d43474d6119507826",
+      "size": 4062
+    },
+    {
+      "path": ".backbone-dev/evaluations/value-2026-09-06/report.md",
+      "sha256": "2929adaa0638c50b51fd2074cd349cd9154aa9518464fb63d7cf24916a56e57a",
+      "size": 6351
+    },
+    {
+      "path": ".backbone-dev/handoffs/2026-09-05-after-agents-qualification.md",
+      "sha256": "f1ef5a1c674a677c18189433d85917bf0d6021cd2c2b8aadbec2d293dc789b8c",
+      "size": 4007
+    },
+    {
+      "path": ".backbone-dev/handoffs/2026-09-05-next-session.md",
+      "sha256": "834f0878626ab366f0e60216843efe02d51db577569242d2801abee8b8221c3f",
+      "size": 5780
+    },
+    {
+      "path": ".backbone-dev/handoffs/2026-09-06-goal-progress-fret62.md",
+      "sha256": "df72bb2d03130884aa683f4fa835683c564c2938891335933197ae1ad69d2a88",
+      "size": 3915
+    },
+    {
+      "path": ".backbone-dev/handoffs/2026-09-06-goal-progress-parcel95.md",
+      "sha256": "b7805ef17d2b82ac5cb1e7773fc638e9e53303fb71febded927763addc24fbd4",
+      "size": 4649
+    },
+    {
+      "path": ".backbone-dev/handoffs/2026-09-06-goal-progress-rc2.md",
+      "sha256": "15355f0e05adc0981ca00c4db45341e6dbafe59619c54e1c1f06e8a83e7f5f16",
+      "size": 5284
+    },
+    {
+      "path": ".backbone-dev/handoffs/2026-09-06-goal-progress-rc4.md",
+      "sha256": "7139a7cc3f85ea017b75e8543aa5348147a2a594c486bffaf4df94e2542265be",
+      "size": 1901
+    },
+    {
+      "path": ".backbone-dev/handoffs/2026-09-06-goal-progress-rc5.md",
+      "sha256": "947abb04e8668305ca9b0018c5dff4be344a47648a7fc0ce7a82ffebaef15df4",
+      "size": 3013
+    },
+    {
+      "path": ".backbone-dev/handoffs/2026-09-06-integrated-demonstrator.md",
+      "sha256": "137e2479a9eab4af50644b5ada80b97d84e60278e05f2b827cfeac8164d5d8a8",
+      "size": 10767
+    },
+    {
+      "path": ".backbone-dev/handoffs/2026-09-06-local-candidate-delivery.md",
+      "sha256": "19baa1c0558a59a712f08bcdd2d801703a6781fa07d86d5b0b7ced65ea0fc54c",
+      "size": 4766
+    },
+    {
+      "path": ".backbone-dev/handoffs/2026-09-06-long-goal.md",
+      "sha256": "75b770e10dc572a1da33223fce35437e37f20994c229af616ae533d9dc89523f",
+      "size": 9006
+    },
+    {
+      "path": ".backbone-dev/handoffs/2026-09-06-runtime-validation-phase2.md",
+      "sha256": "2432feb1cc0c23017789801124b2f992c14bfab95f60c5c4f1df741579c42a36",
+      "size": 19144
+    },
+    {
+      "path": ".backbone-dev/operations/cross-harness-continuity.md",
+      "sha256": "eada8029ec6ac952ca03ca0e7f8be1649a430f335c88d5c8bde0a844e21bc18d",
+      "size": 7530
+    },
+    {
+      "path": ".backbone-dev/operations/guide-dsh.md",
+      "sha256": "e2189c57721efca4cee5979631c4ff57e7b789d3ec028e55761c246d12581f4d",
+      "size": 6974
+    },
+    {
+      "path": ".backbone-dev/plans/cross-harness-memory-pilot.md",
+      "sha256": "c02bb3a03c9324a4a3a2c4c5ce403cd382565f4a4ce5d1f6ab6fee7cc0ec2ff8",
+      "size": 4448
+    },
+    {
+      "path": ".backbone-dev/plans/implementation-plan.md",
+      "sha256": "92f77c9677dd3be1e3d9d65831e60dae4d4275e614d8c945cb693814c6c805d0",
+      "size": 34314
+    },
+    {
+      "path": ".backbone-dev/plans/review-and-handoff.md",
+      "sha256": "e5c9544fad55db2d374341e151f9570cb7ec933285cc41bf1903a46eeb262cb2",
+      "size": 3229
+    },
+    {
+      "path": ".backbone-dev/runtime-validation/STATUS.md",
+      "sha256": "9a4bfb30a4f68ea813d6739575a07868d6771a3a049fb71de3e77ae54f94ed86",
+      "size": 2408
+    },
+    {
+      "path": ".backbone-dev/runtime-validation/plan-current.md",
+      "sha256": "3b0d4b061ea6d96ea24c1be199dd736c1372157677e4e73768b5797d3f9d617f",
+      "size": 4791
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "89fdf066c3d029c5d10fb0ea5af1a30ded6a903c9b65507bc2c239ebaaa83776",
+      "size": 47
+    },
+    {
+      "path": "AGENTS.md",
+      "sha256": "e30cac6fe62f528b011e86aa2c7e97e3bdd301a695cf7c3b7787d5f3aa7ac9f6",
+      "size": 1202
+    },
+    {
+      "path": "product/README.md",
+      "sha256": "f736e74340b93f5e2beb0126ec8f4c74bb8e81468829bce5b66c141cc94dbee2",
+      "size": 5812
+    },
+    {
+      "path": "product/agreement.md",
+      "sha256": "17b08e213d2ffa2b8f670a88b9cd6b83fedc0b2831ee75cdd3b3f300ac5be75c",
+      "size": 2048
+    },
+    {
+      "path": "product/bundle.json",
+      "sha256": "a664f1532cd22b5735f348e3dde339518366a3a5c68bb15915e0e4c85bd8ecee",
+      "size": 493
+    },
+    {
+      "path": "product/continuity.py",
+      "sha256": "94358f005f0cd6db284656310581553f15e9943c3d950bfbb9e64abefddccaf0",
+      "size": 14269
+    },
+    {
+      "path": "product/profiles.md",
+      "sha256": "57b98a3e5d7726d7a7b46faa7bdbbbfe595098fe611d2e1059a2f8473ebfa4c8",
+      "size": 5289
+    },
+    {
+      "path": "product/vbb.py",
+      "sha256": "016ad366e840fcec36b4009cb774e19c27f1a61bf7af6a918d121f4f1f70e7ad",
+      "size": 13796
+    },
+    {
+      "path": "tooling/assess_l1.py",
+      "sha256": "7fbdd7e44226276a95287e655b5ff47fe6d01b616d82c5392b4b48cc087093b2",
+      "size": 3939
+    },
+    {
+      "path": "tooling/build_candidate.py",
+      "sha256": "ef524e82dc738593acedba6f478050001dbdb8d89c85b3b57a74d40dbef51969",
+      "size": 1705
+    },
+    {
+      "path": "tooling/check_boundary.py",
+      "sha256": "a35741bfac6b68ee506a6efcca42322be07b1ea298341f566f42b52a974e6cc1",
+      "size": 1614
+    },
+    {
+      "path": "tooling/check_l1_evidence.py",
+      "sha256": "669d31be28c6ddbaf7418dcc77580cd3523753a20e41b872f1036c1be76226cb",
+      "size": 3091
+    },
+    {
+      "path": "tooling/distribution.json",
+      "sha256": "cc34ebed823a1f3df9ab2bb382e31029caba5ebb1590741ea678de2e5520d776",
+      "size": 140
+    },
+    {
+      "path": "tooling/qualify_candidate_local.py",
+      "sha256": "b10090b03db5fc18cd4728381c67539ecb43dd5e70e6ed44f6a9a9536d593ed2",
+      "size": 4508
+    },
+    {
+      "path": "tooling/run_l1_trial.py",
+      "sha256": "61e0036fcd8ee3817f08d78e5a200af06d9a024ff904c3af912c82f26d2b7cb4",
+      "size": 3916
+    },
+    {
+      "path": "tooling/tests/test_boundary.py",
+      "sha256": "9709aab092742b94c63c17e5e8fde042896660a84f58bee353e043fb5d93fe3b",
+      "size": 2198
+    },
+    {
+      "path": "tooling/tests/test_candidate_lifecycle.py",
+      "sha256": "dcac9d21c1b06ce2cee2c70aadd10b6fee896b917cf4552b7eaa6fcbb1eb0d89",
+      "size": 12986
+    }
+  ],
+  "transformations": [
+    {
+      "path": ".backbone-dev/decisions/2026-09-05-scope-and-architecture.md",
+      "source_sha256": "8abea5e86ab0cad46e3d633c8dab71fb68f1136bbbd83b591be0f69cb53f224d",
+      "export_sha256": "32f9b475ae0b0466bec7c9cbb1b251be97942312702e7fb016916353088821c5",
+      "reason": "private path/endpoint/provider redaction; original preserved locally"
+    },
+    {
+      "path": ".backbone-dev/handoffs/2026-09-06-goal-progress-fret62.md",
+      "source_sha256": "9787e6c817c48c53212b0b99d820e336aaed1bac90a2525d44e4f23bb549e722",
+      "export_sha256": "df72bb2d03130884aa683f4fa835683c564c2938891335933197ae1ad69d2a88",
+      "reason": "private path/endpoint/provider redaction; original preserved locally"
+    },
+    {
+      "path": ".backbone-dev/handoffs/2026-09-06-goal-progress-rc2.md",
+      "source_sha256": "125d9ebefc5578cfbef5dae604dc4b81f91b7a8ca7f7fc5dadb2e93c7ceb31a9",
+      "export_sha256": "15355f0e05adc0981ca00c4db45341e6dbafe59619c54e1c1f06e8a83e7f5f16",
+      "reason": "private path/endpoint/provider redaction; original preserved locally"
+    },
+    {
+      "path": ".backbone-dev/handoffs/2026-09-06-integrated-demonstrator.md",
+      "source_sha256": "38371aa85cada8e0c37e85a548fea9c76afd524132c03d72049788b5e96e918b",
+      "export_sha256": "137e2479a9eab4af50644b5ada80b97d84e60278e05f2b827cfeac8164d5d8a8",
+      "reason": "private path/endpoint/provider redaction; original preserved locally"
+    },
+    {
+      "path": ".backbone-dev/handoffs/2026-09-06-long-goal.md",
+      "source_sha256": "816ae90a17bba8871ee8872320da60cd2b22ab6d8c5468a7027881d452ce2e78",
+      "export_sha256": "75b770e10dc572a1da33223fce35437e37f20994c229af616ae533d9dc89523f",
+      "reason": "private path/endpoint/provider redaction; original preserved locally"
+    },
+    {
+      "path": ".backbone-dev/handoffs/2026-09-06-runtime-validation-phase2.md",
+      "source_sha256": "22081f11f69361aaf2c0dccd8f5767c92447329018ce82e5d8cb7feee0aae866",
+      "export_sha256": "2432feb1cc0c23017789801124b2f992c14bfab95f60c5c4f1df741579c42a36",
+      "reason": "private path/endpoint/provider redaction; original preserved locally"
+    },
+    {
+      "path": ".backbone-dev/runtime-validation/STATUS.md",
+      "source_sha256": "0744d1f65b232bed96abc9dcba369198ebd49bcc0f93730402d160fe47beeb9d",
+      "export_sha256": "9a4bfb30a4f68ea813d6739575a07868d6771a3a049fb71de3e77ae54f94ed86",
+      "reason": "private path/endpoint/provider redaction; original preserved locally"
+    }
+  ],
+  "exclusions": {
+    "conservation": "Private campaign initial inventory and exclusions inventory; original factory remains intact",
+    "categories": [
+      "native traces and sessions",
+      "consumer workspaces and Git copies",
+      "private test design/oracles",
+      "screenshots and source site",
+      "research excerpts and source evidence",
+      "historical binary archives (retained locally; rc5 payload rebuild available; gzip bytes differ, see REPRODUCTION.json)"
+    ]
+  },
+  "status": "runtime NOT_READY; selected public backup, not release certification"
+}

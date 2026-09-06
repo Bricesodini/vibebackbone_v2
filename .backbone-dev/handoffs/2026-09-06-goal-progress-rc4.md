@@ -1,0 +1,9 @@
+# Reprise rc.4
+
+Goal actif. Dernière tranche a fait progresser le produit : profils documentés dans rc.3, revue fraîche réelle puis deux corrections rc.4. Lire [rapport rc.4](../evaluations/candidate-rc4/report.md). Archive SHA256 `0846c70222ea55bc779076cc20d251e9d4b9e554d5300519c592fb4f2bbc8165`. 25 tests (22 lifecycle+3 frontière), 20 mesures, CLI réel passent. Les deux nouvelles régressions échouent sur l'archive rc.3. Aucun modèle actif, home Codex nettoyé, sources de revue inchangées.
+
+Revue rc.3 dans candidate-rc3-review/runs/02-review (01 refus avant modèle faute de Git, gel2 corrigé). Reviewer a réellement reproduit les deux bugs et exécuté les tests ; limites : pas de sources des tests de mesures ni de traces brutes de mission dans sa copie, seulement rapports. Pas de preuve fraîche de revue rc.4 encore. Les temporaires nouveaux restent dans .vbb et sont déclarés/conservés ; pas de nettoyage automatique aveugle. Empty .vbb récupérable. README limites mises à jour.
+
+Prochaines actions : revue fraîche de rc.4 exact avec tests et, si utile, sources tests mesures ; valider mise à jour réelle rc.2 ou rc.3 → rc.4 et retrait avec données intactes. Vérifier les claims profils contre traces (pas seulement résumés) et accomplir audit intégral du mandat. Encore aucune justification de goal complet, ne pas le marquer complet prématurément.
+
+Les résultats mémoire et limitations restent dans [handoff PARCEL-95](2026-09-06-goal-progress-parcel95.md). Deux lecteurs récupèrent faits essentiels après clarification évaluateur, résidus narratifs consignés. Ne pas prétendre qualification autonome universelle. Aucun changement aux archives/anciens gels. Préserver tous travaux existants non commités. Aucune publication/global/installation factory. Modèles strictement séquentiels y compris titres/reviewers, aucun sous-agent parallèle.

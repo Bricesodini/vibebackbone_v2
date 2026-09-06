@@ -1,0 +1,11 @@
+{
+  "historical_archive_sha256": "47ed2462fae12e8b0365c3c45e32e4516137d331b43b79914d2c36df2580beb1",
+  "export_rebuild_sha256": "8d780e23add20e880a81b2fa8bce5c2e5f500e8a8b86130a3b924a12a6ee306c",
+  "decompressed_tar_equal": true,
+  "decompressed_tar_sha256": "c3603b28f7f701f41e27229fa6fd4b91eaf1c38c15baa2b6de0f467d720c540a",
+  "gzip_header_original_hex": "1f8b0800000000000213",
+  "gzip_header_rebuilt_hex": "1f8b08000000000002ff",
+  "public_test_count": 27,
+  "runtime_verdict": "NOT_READY",
+  "interpretation": "Payload reproduced; compressed bytes differ. Original remains final candidate pending new runtime qualification. Rebuild is not exact historical gzip artifact."
+}
