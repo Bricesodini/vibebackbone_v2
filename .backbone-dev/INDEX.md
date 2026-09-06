@@ -1,10 +1,10 @@
-# Vibe Backbone V2 — qualification runtime rc.6 en cours
+# Vibe Backbone V2 — qualification runtime rc.7 en cours
 
 Factory de conception, jamais un projet consommateur. V1 reste une source de preuves, pas une autorité. Aucun produit installé ici.
 
 ## Goal runtime actif — 2026-09-06
 
-Mandat adopté, goal actif : [état de reprise courant](runtime-validation/STATUS.md), [plan consolidé](runtime-validation/plan-current.md). Sauvegarde publique initiale vérifiée ; validation runtime **NOT_READY**, campagne G1 gelée ; première paire T1 terminée, confirmations restantes. Les qualifications rc.5 ci-dessous restent historiques et bornées.
+Mandat adopté, goal actif : [état de reprise courant](runtime-validation/STATUS.md), [plan consolidé](runtime-validation/plan-current.md). Sauvegarde publique contrôlée vérifiée ; validation runtime **NOT_READY**. Les dix cellules G1 et les trois smokes sont collectés ; [audit et adjudication](runtime-validation/g1-adjudication.md), puis diagnostic causal préfixé avant correction/nouvelle qualification. [Étude des mécanismes mémoire](runtime-validation/memory-mechanisms-study.md). Les qualifications rc.5 ci-dessous restent historiques et bornées.
 
 ## Reprendre maintenant
 

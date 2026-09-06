@@ -3,7 +3,53 @@
 Mandat du 2026-09-06 adopté : ../handoffs/2026-09-06-runtime-validation-phase2.md.
 Verdict actuel : **NOT_READY**, qualification en cours. Aucun critère du nouveau goal n'est satisfait par simple héritage de l'audit rc.5.
 
-## État courant après les six cellules exploratoires — 2026-09-06
+## Orientation courante — outils déterministes avant gel G2
+
+Brice rappelle la piste d'outils déterministes adjoints à AGENTS.md. [Branche active et frontières](deterministic-companions.md) : examiner le réemploi compare/inventory, puis un prototype privé ciblé de références/ancres/couverture déclarée avant un diagnostic consommateur comparatif. Le constat d'accès aux faits ne démontre pas l'inutilité d'un vérificateur déterministe. Ne pas lancer une nouvelle campagne entière d'instructions seules avant cette étude.
+
+Le concepteur indépendant a remis test-design-g2/PROPOSAL.md, missions.md, oracles.md et coverage.md, trois tâches nouvelles et deux confirmations,44 sessions proposées. Ce n'est pas un gel ni un résultat ; aucune nouvelle collecte métier lancée. Rc.7 reste candidat mécanique, NOT_READY. Tous critères et anciens échecs conservés.
+
+## État après diagnostic D1 et correction candidate rc.7 — 2026-09-06
+
+D1 :12 lectures terminées, copies inchangées, aucun modèle actif. Auditeur indépendant : fait unique restitué5/6 coverage contre1/6 short, exposition dans les12 traces ; résultat descriptif, pas succès global ni confirmations. Erreurs de filiation, comptages, portée des hashes et non-corroboration persistent. Temps/texte augmentent. Les deux audits sont conservés, aucune note G1 modifiée.
+
+[Décision rc.7](../decisions/2026-09-06-runtime-reprise-contract-rc7.md) : contrat de reprise précisé, moteurs et lifecycle inchangés. Archive `52bc93ee0cb23152fd90f169d855550fc344f14be277da54474ecee48a64e32a`,47 tests exacts PASS, update rc6→rc7/retrait réels préservant documents, rebuild exact. Conduite runtime NON qualifiée. Sources rc6 et anciens gels intacts.
+
+Prochain : conception indépendante de nouveaux cas métier/confirmations, gel et collecte sur les mêmes routes sans micro-validation ; journal d'autorisation du retrait transporté ; check natif explicite Python supporté/point d'entrée public ; bilan coûts/inventaires, synchronisation publique contrôlée et revue finale exacte. Ne pas ajouter un service mémoire pour traiter un manque de restitution quand l'accès au fait est déjà observé. Étude algorithmes/Know/Mem0/Honcho conservée et ouverte. Goal actif, NOT_READY, aucune réduction de matrice.
+
+## État précédent après smokes et audit causal — 2026-09-06
+
+Les trois smokes natifs de mesure sont terminés : moteurs compare/inventory exercés. Limites conservées : Pi a appelé continuity.py directement ; DSH a utilisé Python3.9.6 hors contrat ; Python effectif Codex/Pi non mesuré. Aucune qualification complète de profil déduite. Échec de préparation Codex avant modèle conservé, puis préparation2 identique des trois fixtures Git.
+
+Une revue indépendante fraîche maintient NOT_READY et distingue faits conservés/exposés de restitution incomplète ; elle confirme aussi les fausses absences et l'indisponibilité d'outil non étayée. [Adjudication séparée](g1-adjudication.md), aucune note G1 réécrite. [Étude des mécanismes Know/Mem0/Honcho](memory-mechanisms-study.md) commencée sur code, résultats historiques et docs officielles ; aucune installation/adoption.
+
+Diagnostic privé préfixé diagnostic-g1-output-coverage :12 lectures, mêmes routes et copies byte-identiques par origine, consigne courte versus couverture explicite et vérification des références. Gel avant modèles, budget300s identique, aucun lecteur remplaçant, aucun usage comme nouvelle confirmation. Ces états G1 sont des reproductions diagnostiques. Puis intervention justifiée et nouveau gel métier/confirmations, coûts/inventaires/synchronisation publique et requalification exacte/finale restent requis. Goal actif ; matrice inchangée.
+
+## État précédent après collecte complète G1 — 2026-09-06
+
+Les dix cellules sont collectées :44 sessions métier de premier niveau,2 vrais enfants DSH, fins vérifiées, aucun modèle actif. C2-V :44/0/0 métier, retrait exact rc6 préservant fichiers ordinaires et Git, lecteur Codex retrouve le portrait provisoire et interdit le téléchargement, voit les suppressions VBB ; il laisse correctement l'autorisation du retrait inconnue (preuve mainteneur non portée dans sa copie). Ce succès borné ne compense pas les confirmations précédentes insuffisantes. G1 demeure NOT_READY. Les sources originales sont inchangées.
+
+Prochains travaux :3 smokes de mesure du candidat exact (240s par harness, déjà prévus, pas des relances métier), bilan complet/coûts/inventaire, revue causale fraîche du protocole et des résultats. Examiner notamment restitution courte vs fait conservé/non restitué, référence de retrait non transmise, et défaillances de lecture explicites sans effacer les notes FAIL. Étude des algorithmes et pistes Backbone Know/Mem0/Honcho demandée par Brice, puis correction justifiée/new gel de validation si nécessaire. Aucune réduction de matrice ni conclusion READY tant que les dix critères restent ouverts. Preuves privées campaign-g1/G1-summary.json, assessments/*.json, source-preservation-after-G1.json. Points C1/C2 et orientations utilisateur à synchroniser publiquement après contrôle de sélection.
+
+## État précédent après C2-N — 2026-09-06
+
+C2-N terminé : diagnostic sans modification39/3, correction intermédiaire43/1, puis44/0/0 réalisation/revue/reprise avec limites. Lecteur Codex retrouve D2 courant, distingue la note nommée D3 d'une décision, vérifie cinq ensembles de preuves et les51 pièces reviewer. Mais confirmation FAIL sur restitution du fait unique : portrait placeholder non mentionné, seule interdiction du téléchargement restituée. Le fait original reste conservé, aucune réparation manuelle ni substitution. Les sources originales/protégées sont inchangées.39 sessions métier et2 enfants natifs terminés ; aucun modèle actif.
+
+Prochaine cellule finale C2-V : Pi diagnostic480s, injection D2, Pi reprise720s, retours, revue DSH600s, remédiation Pi600s, retrait exact rc6 puis copie intégrale/lecteur Codex300s. Aucun changement de prompts/candidat G1. Après collecte :3 smokes mesures préfixés, bilan matrice/coûts/causes, correction et nouveau gel si nécessaire, qualification exacte et revue fraîche. Le critère de confirmation n'est pas satisfait par les trois cellules déjà notées ; ne pas réduire ce critère pour clore. L'étude algorithmes/Backbone Know/Mem0/Honcho demandée reste à conduire à partir des défauts causaux. Global NOT_READY, goal actif.
+
+## État précédent après paire de confirmation C1 — 2026-09-06
+
+C1-N terminé :32/0/0 métier, reprise DSH FAIL fidélité. Le fait unique Hub placeholder reste omis (activation hors mandat correctement écartée) ; indisponibilité Playwright affirmée sans preuve native de cette indisponibilité. Les notes prédécesseurs et les preuves sont retrouvées cette fois. Les deux confirmations C1 ne satisfont donc pas le gate de fidélité ; aucun lecteur remplacé, aucune mémoire réparée par évaluateur.34 sessions métier et2 enfants natifs terminés, aucun modèle actif. Prochain C2-N diagnostic Pi480s puis D2/reprise720s, revue DSH600s, remédiation Pi600s, inventaire baseline/copie/lecteur Codex300s ; enfin C2-V. Deux cellules restent, protocole intact.
+
+Brice a demandé de vérifier l'orientation AGENTS.md (confirmée : MISSION et conservation, plus agreement en VBB) et d'étudier au-delà des solutions Mem0/Honcho les algorithmes spécifiques, avec les travaux Backbone Know. Orientation et repères consignés dans phase2-entry.md. Dépôt Know retrouvé en lecture seule au HEAD b955aa97863d8692faa3a34f12c8baf48b38bbe0 ; inspection approfondie des mécanismes/preuves reste à faire. Ni installation ni adoption normative V1. Étude causale à mener après confirmations inchangées, en distinguant stockage, récupération et restitution. Sources originales préservées, résultats privés sous campaign-g1/assessments/C1-N.json ; global NOT_READY.
+
+## État précédent après confirmation C1-V — 2026-09-06
+
+C1-V : résultat métier32/0/0 avec limites, mais confirmation **FAIL fidélité**. Lecteur DSH affirme aucune mémoire antérieure consultable en invoquant memory/ vide ; le prédécesseur REPRISE.predecessor.md existe sous evidence/ et est lié depuis REPRISE.md. Le fait unique Hub placeholder est conservé dans retour et note mais non restitué explicitement (seule activation non autorisée mentionnée). Ne pas assimiler conservation à récupération fidèle. Aucun changement de mémoire par évaluateur, aucun lecteur substitué ni relance. G1 ne satisfait donc pas le critère de confirmation en l'état ; poursuivre les trois cellules restantes puis correction/new gel causal, sans réduire la matrice ni installer un framework.
+
+30 sessions métier de premier niveau et2 enfants natifs terminés, aucun modèle actif au point de reprise. Prochain C1-N (Codex worker720s, Pi revue600s, Codex reprise600s, DSH lecteur300s), puis C2-N/C2-V. Prompts et candidat gelés inchangés. Sources originales et fichiers protégés vérifiés inchangés. Preuves privées campaign-g1/assessments/C1-V.json et lecteur verbatim. Dernier push exploratoire vérifié8097fb8e5bb2996b7a29bab1dd1a24587f1f212f ; point C1-V local à synchroniser avec les prochaines preuves dérivées. Global NOT_READY, goal actif.
+
+## État précédent après les six cellules exploratoires — 2026-09-06
 
 T3-V terminé :32/0/0 métier avec limites ; enfant DSH réel (4 échanges enfant+23 parent),27 requêtes propres closes et séquentielles. Retrait exact rc6 réussi, fichiers ordinaires et Git inchangés ; copie complète249 fichiers. Lecteur Pi **FAIL critique : omission du fait unique Hub placeholder et de l'absence d'autorisation**, aucune explication du retrait. Les preuves courantes et de revue sont correctement retrouvées cette fois. Ne pas confondre cela avec réussite de reprise complète. Aucun remplacement de lecteur, aucun ajout de mémoire par évaluateur. Défaillance conservée dans assessments/T3-V.json ; cycle mécanique de retrait ne certifie pas fidélité.
 

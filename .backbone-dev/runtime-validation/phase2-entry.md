@@ -46,3 +46,17 @@ Les candidats nommés reprennent les objets demandés/étudiés dans le mandat ;
 | Export produit/public | Aucun corpus de conception, secret ou projet privé entraîné |
 
 Les versions, oracles, baseline équipée et budgets seront préfixés avant chaque collecte de phase 2. Toute installation nécessite alors la décision de rôle/version/portée correspondante ; cette préparation ne vaut pas installation anticipée. READY_FOR_PHASE_2 exigera les preuves runtime, les confirmations autonomes et la revue fraîche encore ouvertes.
+
+## Orientation utilisateur ajoutée le 2026-09-06 — mémoire externe
+
+Brice autorise à creuser les pistes Mem0 et Honcho si la validation runtime reste non concluante. Cette orientation ouvre une étude de rôle et de frontière, pas une installation ou une adoption décidée. Aucune propriété technique de ces solutions n'est tenue pour acquise ici : vérifier leurs documentations officielles et versions lors de l'étude.
+
+Question causale : les échecs observés concernent-ils la conservation, la recherche des sources, leur sélection, la restitution, ou leur autorité ? Plusieurs cellules G1 conservent les octets et liens mais le lecteur omet un fait unique ou déclare une note absente. Comparer une amélioration du contrat documentaire/récupération native aux options externes sur ces besoins, sans transférer au stockage ou à un résumé l'autorité des décisions. Exiger provenance consultable, suppression/retrait maîtrisé, portabilité, données privées isolées, coût et appels modèles auxiliaires strictement séquentiels. Aucun runtime modèle VBB, aucune dépendance méthodologique installée avant décision de rôle.
+
+Conserver le gel G1 jusqu'au terme des confirmations. Toute expérimentation d'intégration exige un nouveau protocole préfixé, des copies isolées, une comparaison loyale et des confirmations nouvelles ; aucun échec G1 n'est réétiqueté en succès.
+
+### Extension demandée par Brice — algorithmes et Backbone Know
+
+Étudier au-delà des services Mem0/Honcho les algorithmes spécifiques de mémoire, recherche, sélection et restitution ; retrouver les travaux Backbone Know qui exploraient cette direction. Les examiner comme preuves, prototypes et retours d'expérience, jamais comme conventions normatives V2. Comparer leurs mécanismes aux défauts causaux runtime observés, en distinguant conservation, récupération, couverture des faits uniques, provenance/autorité et synthèse fidèle. Aucune installation ni intégration décidée à ce stade ; les expérimentations éventuelles auront leurs frontières et protocole avant exécution.
+
+Repères retrouvés (lecture seule, aucune exécution du dépôt Know) : `[LOCAL_PATH]`, HEAD observé `b955aa97863d8692faa3a34f12c8baf48b38bbe0` ; worktree pilote `[LOCAL_PATH]`. Points de départ à examiner : `docs/benchmarks/t12gr-anchor-contract-v02.md`, `docs/benchmarks/t12gr-problem-map.md`, `docs/benchmarks/scoring-rubric.md`, `docs/runs/2026-07-16_1709_llm-efficiency-poc-program/05_EXECUTION.md`, `docs/runs/core-engine-i1-i5-review/07_CONTRACT_COHERENCE.md`. Un inventaire historique DSH-Minimax/compaction-memory-lab existe mais ne remplace pas l'inspection du code et des preuves courantes. Les statuts Know internes ne gouvernent pas V2.

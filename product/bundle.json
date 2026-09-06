@@ -1,11 +1,11 @@
 {
   "files": {
     "README.md": "f736e74340b93f5e2beb0126ec8f4c74bb8e81468829bce5b66c141cc94dbee2",
-    "agreement.md": "17b08e213d2ffa2b8f670a88b9cd6b83fedc0b2831ee75cdd3b3f300ac5be75c",
+    "agreement.md": "edc0ad9cfb9db18349a93ec9c2c8c494ae9f046e810f483b20e90a7c8daf66a6",
     "continuity.py": "94358f005f0cd6db284656310581553f15e9943c3d950bfbb9e64abefddccaf0",
-    "profiles.md": "c174f7c8ba941a58d8a68ba78a3d5ce8d827268bd6f284cc950b305b7462ff01",
+    "profiles.md": "d0dbd1da877655c8c4977ba3191fbfdd0fb15cfc1ea72df4a32dca4fbc280911",
     "vbb.py": "016ad366e840fcec36b4009cb774e19c27f1a61bf7af6a918d121f4f1f70e7ad"
   },
   "schema": 1,
-  "version": "0.1.0-rc.6"
+  "version": "0.1.0-rc.7"
 }

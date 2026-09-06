@@ -10,8 +10,8 @@
     },
     {
       "path": ".backbone-dev/INDEX.md",
-      "sha256": "cc7f130b74254f7b37b9c6e12d9fff13fd46056dad81a95c10e1efcf0063b9a3",
-      "size": 3125
+      "sha256": "5c0e92cce7dc9195d77c5bcaad31080a4bd0b719da3b283ffdfd2705d751fbe7",
+      "size": 3330
     },
     {
       "path": ".backbone-dev/decisions/2026-09-05-agent-readiness-outcome.md",
@@ -67,6 +67,11 @@
       "path": ".backbone-dev/decisions/2026-09-06-minimal-local-core.md",
       "sha256": "6262e8a540288a7fc1f2f35a81a46eb184f140ec97dd7922f30e15b78364c8ec",
       "size": 3334
+    },
+    {
+      "path": ".backbone-dev/decisions/2026-09-06-runtime-reprise-contract-rc7.md",
+      "sha256": "f912f2f7aa8260f44585972ab0bc87cd86ea3a86b2cf7a98587f8186abda5c83",
+      "size": 3414
     },
     {
       "path": ".backbone-dev/design/agents-entry-point.md",
@@ -300,13 +305,28 @@
     },
     {
       "path": ".backbone-dev/runtime-validation/STATUS.md",
-      "sha256": "109ca3eb9e77a19cacfd72d6bfdc084635836ad75f17b102360774a9a5148f13",
-      "size": 15938
+      "sha256": "1d72dc6b51acb31c2fde52e24b6f02731b02f40600b0272dda2ad1fbe031037a",
+      "size": 25345
+    },
+    {
+      "path": ".backbone-dev/runtime-validation/deterministic-companions.md",
+      "sha256": "daf638d2a969fa4d0024442956d4a55ce1ea62e8f28d1c7f60bc908442c88cf9",
+      "size": 4349
+    },
+    {
+      "path": ".backbone-dev/runtime-validation/g1-adjudication.md",
+      "sha256": "9170ba37b6a40cf03fbc459b4dd653c2249bd904c4ef208642843891cdd5786e",
+      "size": 5064
+    },
+    {
+      "path": ".backbone-dev/runtime-validation/memory-mechanisms-study.md",
+      "sha256": "9918bd18e4cffe8545f9149bf0c3070af7d1d4d093fca1f093f91d3c030c5579",
+      "size": 6787
     },
     {
       "path": ".backbone-dev/runtime-validation/phase2-entry.md",
-      "sha256": "d4da5b14d9ef6cc1833dfd1628199391254a6bbe86df94b455d8b8e6576ba4e7",
-      "size": 5839
+      "sha256": "022759d0f6e3771de9b3b8eaa5423314231daa0cca19d6e522206b01ff652e70",
+      "size": 8610
     },
     {
       "path": ".backbone-dev/runtime-validation/plan-current.md",
@@ -329,18 +349,28 @@
       "size": 1202
     },
     {
+      "path": "README.md",
+      "sha256": "ae59558c377795df79372f6ce765171edb8d538e42ab1dbe06a0fd9962357a43",
+      "size": 2425
+    },
+    {
+      "path": "REPRODUCTION.json",
+      "sha256": "731b81058796a942196ce42b65e8e9808e0728912ac94ea795494ac23b332a50",
+      "size": 679
+    },
+    {
       "path": "product/README.md",
       "sha256": "f736e74340b93f5e2beb0126ec8f4c74bb8e81468829bce5b66c141cc94dbee2",
       "size": 5812
     },
     {
       "path": "product/agreement.md",
-      "sha256": "17b08e213d2ffa2b8f670a88b9cd6b83fedc0b2831ee75cdd3b3f300ac5be75c",
-      "size": 2048
+      "sha256": "edc0ad9cfb9db18349a93ec9c2c8c494ae9f046e810f483b20e90a7c8daf66a6",
+      "size": 3163
     },
     {
       "path": "product/bundle.json",
-      "sha256": "66625da9915311ef24dcefa4d7398383eac67d7f4f80cde31656450ffb879794",
+      "sha256": "44603c84c4278377139b1a362dc3e73d07f3139fad05ec45de9249213a7b40a3",
       "size": 493
     },
     {
@@ -350,8 +380,8 @@
     },
     {
       "path": "product/profiles.md",
-      "sha256": "c174f7c8ba941a58d8a68ba78a3d5ce8d827268bd6f284cc950b305b7462ff01",
-      "size": 7868
+      "sha256": "d0dbd1da877655c8c4977ba3191fbfdd0fb15cfc1ea72df4a32dca4fbc280911",
+      "size": 9602
     },
     {
       "path": "product/vbb.py",
@@ -365,7 +395,7 @@
     },
     {
       "path": "tooling/build_candidate.py",
-      "sha256": "94b2732baa6a0e8b5a5d085baeb3ae3a593b24929ac00931cfb8cb45d1e3df73",
+      "sha256": "ebd95018d0b96e83cba72e6c5966878ba25f19451f3afcd4e6a6dd10e1e9cfcd",
       "size": 1833
     },
     {
@@ -442,14 +472,20 @@
       "reason": "private path/endpoint/provider redaction; original preserved locally"
     },
     {
+      "path": ".backbone-dev/runtime-validation/phase2-entry.md",
+      "source_sha256": "383d89704b0a72f2c3daa29f035c613a67af119c7c094d31165f6e7994206c3d",
+      "export_sha256": "022759d0f6e3771de9b3b8eaa5423314231daa0cca19d6e522206b01ff652e70",
+      "reason": "private path/endpoint/provider redaction; original preserved locally"
+    },
+    {
       "path": ".backbone-dev/runtime-validation/STATUS.md",
-      "source_sha256": "d7fd49811dab2ffd6bd80c6f8c8ebaf78ed16ab66ace998a4f83c9e2365dd5f6",
-      "export_sha256": "109ca3eb9e77a19cacfd72d6bfdc084635836ad75f17b102360774a9a5148f13",
+      "source_sha256": "4e73388db155168c2ab73f54553c2e8893209510c163699dc66898093f3d21b7",
+      "export_sha256": "1d72dc6b51acb31c2fde52e24b6f02731b02f40600b0272dda2ad1fbe031037a",
       "reason": "private path/endpoint/provider redaction; original preserved locally"
     }
   ],
   "exclusions": {
-    "conservation": "Private campaign initial inventory and exclusions inventory; original factory remains intact",
+    "conservation": "Private initial and subsequent inventories, source snapshots and all original evidence retained; no raw consumer material selected",
     "categories": [
       "native traces and sessions",
       "consumer workspaces and Git copies",
@@ -459,5 +495,5 @@
       "historical binary archives (retained locally; rc5 payload rebuild available; gzip bytes differ, see REPRODUCTION.json)"
     ]
   },
-  "status": "runtime NOT_READY: six exploratory cells collected, reader fidelity failures retained; four frozen confirmation cells unconsumed"
+  "status": "runtime NOT_READY: rc7 mechanical candidate, G1/D1 failures retained; deterministic companions are active study before next runtime freeze"
 }
