@@ -2,6 +2,10 @@
 
 Factory de conception, jamais un projet consommateur. V1 reste une source de preuves, pas une autorité. Aucun produit installé ici.
 
+## Goal runtime actif — 2026-09-06
+
+Mandat adopté, goal actif : [état de reprise courant](runtime-validation/STATUS.md), [plan consolidé](runtime-validation/plan-current.md). Sauvegarde publique initiale vérifiée ; validation runtime **NOT_READY**, campagne non encore gelée. Les qualifications rc.5 ci-dessous restent historiques et bornées.
+
 ## Reprendre maintenant
 
 **Nouvelle session demandée :** [validation runtime avec sous-agents sur le site brouillon, puis entrée en phase 2](handoffs/2026-09-06-runtime-validation-phase2.md). Nouveau mandat à lancer avec le prompt du handoff ; l’ancien goal rc.5 ne valide pas ce nouveau périmètre. Remote public fourni, aucune synchronisation effectuée lors de la préparation.

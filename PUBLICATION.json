@@ -10,8 +10,8 @@
     },
     {
       "path": ".backbone-dev/INDEX.md",
-      "sha256": "417b254835dc1624a969604f03f00049dd805a9e808b2aeac88ff32fa91ffb02",
-      "size": 2708
+      "sha256": "e0a96152e7a072cb7ef3108ccf253ce39434f5b511c17523b305d3400610f4df",
+      "size": 3061
     },
     {
       "path": ".backbone-dev/decisions/2026-09-05-agent-readiness-outcome.md",
@@ -109,24 +109,24 @@
       "size": 4655
     },
     {
-      "path": ".backbone-dev/evaluations/agent-readiness/report.md",
-      "sha256": "de798fb7d39e598cd454d49941eef4aba2fbb5eb729901bcaaa82a643a8fb4d0",
-      "size": 8067
-    },
-    {
       "path": ".backbone-dev/evaluations/agent-readiness-sequential/report.md",
       "sha256": "dba8042912c9e5a9e8e8c564a6b279017c231e3ae25cbe0b3940d4f5c471baea",
       "size": 7918
     },
     {
-      "path": ".backbone-dev/evaluations/agents-common/report.md",
-      "sha256": "fe79471293f9acdef32adb28f635a34d3e0c9c0f0dc8cd896692b0549b7c3825",
-      "size": 1134
+      "path": ".backbone-dev/evaluations/agent-readiness/report.md",
+      "sha256": "de798fb7d39e598cd454d49941eef4aba2fbb5eb729901bcaaa82a643a8fb4d0",
+      "size": 8067
     },
     {
       "path": ".backbone-dev/evaluations/agents-common-v2/report.md",
       "sha256": "c16d88d6c53bd0d5e3dee0b08ec74b9e8a46c6ae245226a9259a9bded7ce870d",
       "size": 7179
+    },
+    {
+      "path": ".backbone-dev/evaluations/agents-common/report.md",
+      "sha256": "fe79471293f9acdef32adb28f635a34d3e0c9c0f0dc8cd896692b0549b7c3825",
+      "size": 1134
     },
     {
       "path": ".backbone-dev/evaluations/candidate-rc2/report.md",
@@ -139,11 +139,6 @@
       "size": 2592
     },
     {
-      "path": ".backbone-dev/evaluations/candidate-rc5/report.md",
-      "sha256": "3520cd3052de61bd1ea9729713ecb7866fbcce1240498426d25d88093e671355",
-      "size": 1908
-    },
-    {
       "path": ".backbone-dev/evaluations/candidate-rc5-native/report.md",
       "sha256": "8dc3d1a4ab7a593767152a6966eb334ca28c69dc3d2a8828ad174dbb13c3bc96",
       "size": 1427
@@ -154,14 +149,19 @@
       "size": 999
     },
     {
-      "path": ".backbone-dev/evaluations/continuity-confined/report.md",
-      "sha256": "fb951fd1453773f6e68fac0c1ceb12d831edeb3eb65388d0333f231c5c7b3741",
-      "size": 5146
+      "path": ".backbone-dev/evaluations/candidate-rc5/report.md",
+      "sha256": "3520cd3052de61bd1ea9729713ecb7866fbcce1240498426d25d88093e671355",
+      "size": 1908
     },
     {
       "path": ".backbone-dev/evaluations/continuity-confined-v2/report.md",
       "sha256": "22225f549180cc7a3363b3a28b5cd56e7d34d8eb4e8550964b388c79da7d9ab6",
       "size": 4084
+    },
+    {
+      "path": ".backbone-dev/evaluations/continuity-confined/report.md",
+      "sha256": "fb951fd1453773f6e68fac0c1ceb12d831edeb3eb65388d0333f231c5c7b3741",
+      "size": 5146
     },
     {
       "path": ".backbone-dev/evaluations/continuity-equipped/report.md",
@@ -300,13 +300,23 @@
     },
     {
       "path": ".backbone-dev/runtime-validation/STATUS.md",
-      "sha256": "9a4bfb30a4f68ea813d6739575a07868d6771a3a049fb71de3e77ae54f94ed86",
-      "size": 2408
+      "sha256": "2729dcf9554013a5c9d7675687d8c360d9d51712e10285c4036aa55e6a179c05",
+      "size": 7045
+    },
+    {
+      "path": ".backbone-dev/runtime-validation/phase2-entry.md",
+      "sha256": "d4da5b14d9ef6cc1833dfd1628199391254a6bbe86df94b455d8b8e6576ba4e7",
+      "size": 5839
     },
     {
       "path": ".backbone-dev/runtime-validation/plan-current.md",
       "sha256": "3b0d4b061ea6d96ea24c1be199dd736c1372157677e4e73768b5797d3f9d617f",
       "size": 4791
+    },
+    {
+      "path": ".backbone-dev/runtime-validation/runtime-preparation.md",
+      "sha256": "ea820892f15b3c7874b4994602531d6d2166280120258199d030a6a4825c5f47",
+      "size": 5039
     },
     {
       "path": ".gitignore",
@@ -433,8 +443,8 @@
     },
     {
       "path": ".backbone-dev/runtime-validation/STATUS.md",
-      "source_sha256": "0744d1f65b232bed96abc9dcba369198ebd49bcc0f93730402d160fe47beeb9d",
-      "export_sha256": "9a4bfb30a4f68ea813d6739575a07868d6771a3a049fb71de3e77ae54f94ed86",
+      "source_sha256": "c7eb46e5f07fc53356dee42e00f3ee3898230e7314d1f85e70c1176f75cd86fc",
+      "export_sha256": "2729dcf9554013a5c9d7675687d8c360d9d51712e10285c4036aa55e6a179c05",
       "reason": "private path/endpoint/provider redaction; original preserved locally"
     }
   ],
