@@ -3,7 +3,7 @@ from pathlib import Path
 import gzip,hashlib,io,json,tarfile
 from check_boundary import source_files
 ROOT=Path(__file__).resolve().parents[1]
-VERSION='0.1.0-rc.5'
+VERSION='0.1.0-rc.6'
 PAYLOAD=['vbb.py','continuity.py','agreement.md','README.md','profiles.md']
 def build():
  product=ROOT/'product'
@@ -17,6 +17,8 @@ def build():
    data=p.read_bytes();info=tarfile.TarInfo(f'vbb-{VERSION}/{p.name}');info.size=len(data);info.mode=0o644;info.mtime=0;tar.addfile(info,io.BytesIO(data))
  out=ROOT/'.backbone-dev/releases';out.mkdir(exist_ok=True)
  archive=out/f'vbb-{VERSION}.tar.gz';data=gzip.compress(buf.getvalue(),mtime=0)
+ # Normalize gzip OS header across the observed Python/zlib builds; payload is unchanged.
+ data=data[:9]+bytes([255])+data[10:]
  if archive.exists() and archive.read_bytes()!=data:raise RuntimeError('Existing candidate differs; choose a new candidate version, never overwrite evidence')
  archive.write_bytes(data)
  report={'version':VERSION,'archive':str(archive),'sha256':hashlib.sha256(archive.read_bytes()).hexdigest(),'files':{str(p.relative_to(ROOT)):hashlib.sha256(p.read_bytes()).hexdigest() for p in sources},'status':'candidate_pending_qualification'}

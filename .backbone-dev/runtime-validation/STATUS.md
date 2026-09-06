@@ -3,6 +3,24 @@
 Mandat du 2026-09-06 adopté : ../handoffs/2026-09-06-runtime-validation-phase2.md.
 Verdict actuel : **NOT_READY**, qualification en cours. Aucun critère du nouveau goal n'est satisfait par simple héritage de l'audit rc.5.
 
+## État courant après la paire T1 — 2026-09-06
+
+**NOT_READY, goal actif.** Campagne G1 gelée avant collecte, rc.6 exacte `d7a4d305704ec180e6870c14000dd93b205bc9bc50fa4d4f1c452a4fc7ac7ff5`. Deux reconstructions identiques ; 47 tests mécaniques passent. Les états antérieurs ci-dessous sont historiques et ne remplacent pas ce point.
+
+La limitation de séquence G1/G2 reste un échec conservé. G3 ajoute une observation passive des requêtes propres avec confinement OS interdisant le contournement ; le vrai enfant DSH a été exercé (7 requêtes, toutes closes et séquentielles). Cette preuve prospective permet de poursuivre sans attribuer artificiellement l'activité des autres clients du serveur partagé. Aucun runtime VBB ni configuration globale ajouté. L'ancien SUSPENDED.json n'est pas effacé ; collect-g3.py utilise son propre arrêt. Aucun blocage courant ni modèle actif au point de sauvegarde.
+
+Six essais triviaux effectués : Codex-N exact ; Codex-V interrompu par capacité du modèle (échec environnement conservé, sans substitution) ; Pi/DSH rendent le bon titre avec format superflu dans les deux conditions. Pas de mémoire superflue créée. Ne pas résumer cela en six PASS.
+
+T1-N et T1-V : parcours Codex worker → Pi revue → Codex reprise → DSH lecteur, huit sessions natives terminées. Six défauts initiaux corrigés, 52 PASS/0 FAIL/0 ERROR finaux dans chaque condition, PASS_WITH_COVERAGE_LIMITS. Reprises fidèles : D2/D1, Git non commité, preuves initiales/courantes, retour périmé et oracle tiers faux correctement distingués. Zéro réparation manuelle de mémoire, aucun remplacement de lecteur. Revue et reprise étaient préfixées et leurs coûts restent inclus. Code original et fichiers protégés vérifiés inchangés. Captures mobiles réellement inspectées. Aucun gain de coût ni avantage VBB démontré à ce stade.
+
+Versions observées : Codex exécute le runner sous Node20.19.0, Pi sous Node24.14.1 ; même version par rôle entre N/V. Le gel mentionnait Node24 pour les hôtes Pi/DSH : variante shell conservée explicitement, pas réécrite. Chromium seul, polices bloquées, clic individuel Contact seul ; assertions adaptées et limites conservées. Les chevauchements du serveur partagé ne sont pas des chevauchements propres : captures Pi/DSH complètes, séquentielles et closes. Fin cloud interne non directement observable.
+
+Prochain : T2-V diagnostic Pi (480s), injection D2 préfixée, reprise Pi (720s), retours, revue DSH (600s), remédiation Pi (600s), lecteur Codex (300s). Puis T2-N, T3-N/V, C1-V/N, C2-N/V, sans consommer les confirmations pour régler les prompts. Huit cellules restantes ; smokes de mesures, cycle de vie final exact, revue fraîche et verdict des dix critères restent ouverts. Frontières de phase2 préparées, aucune méthodologie installée.
+
+Preuves privées : `[PRIVATE_CAMPAIGN]/campaign-g1/PROTOCOL.md`, freeze.json, assessments/T1-N.json et T1-V.json, lecteurs verbatim, native-preflight/collection/site-g1-T1-*, source-preservation-after-T1.json. Prochain lancement nommé site-g1-T2-V-worker, jamais une répétition T1 pour obtenir PASS. Dernière sauvegarde publique vérifiée avant ce point : `033c4495dccbd1d197943b48a848512d3ed2a5b2` sur codex/public-runtime-validation ; synchroniser les dérivés actuels depuis l'export propre, jamais l'historique factory.
+
+## Historique conservé
+
 ## Conservation et séparation
 
 Inventaire initial privé : `[PRIVATE_CAMPAIGN]/factory-initial.json` (7176 entrées, 129718813 octets, métadonnées Git comprises), statut Git et patch des changements préexistants conservés à côté. Site original : cinq fichiers, snapshot privé vérifié octet pour octet. Aucun Git créé dans le source. Les traces, captures, source du brouillon et oracles sont exclus de publication par défaut.

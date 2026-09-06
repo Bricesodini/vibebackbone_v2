@@ -10,8 +10,8 @@
     },
     {
       "path": ".backbone-dev/INDEX.md",
-      "sha256": "e0a96152e7a072cb7ef3108ccf253ce39434f5b511c17523b305d3400610f4df",
-      "size": 3061
+      "sha256": "cc7f130b74254f7b37b9c6e12d9fff13fd46056dad81a95c10e1efcf0063b9a3",
+      "size": 3125
     },
     {
       "path": ".backbone-dev/decisions/2026-09-05-agent-readiness-outcome.md",
@@ -300,8 +300,8 @@
     },
     {
       "path": ".backbone-dev/runtime-validation/STATUS.md",
-      "sha256": "2729dcf9554013a5c9d7675687d8c360d9d51712e10285c4036aa55e6a179c05",
-      "size": 7045
+      "sha256": "233cf6b96d9f4b45228918aecc85c36eefc645772e84fe79739fc7ec3bda7b55",
+      "size": 10459
     },
     {
       "path": ".backbone-dev/runtime-validation/phase2-entry.md",
@@ -340,7 +340,7 @@
     },
     {
       "path": "product/bundle.json",
-      "sha256": "a664f1532cd22b5735f348e3dde339518366a3a5c68bb15915e0e4c85bd8ecee",
+      "sha256": "66625da9915311ef24dcefa4d7398383eac67d7f4f80cde31656450ffb879794",
       "size": 493
     },
     {
@@ -350,8 +350,8 @@
     },
     {
       "path": "product/profiles.md",
-      "sha256": "57b98a3e5d7726d7a7b46faa7bdbbbfe595098fe611d2e1059a2f8473ebfa4c8",
-      "size": 5289
+      "sha256": "c174f7c8ba941a58d8a68ba78a3d5ce8d827268bd6f284cc950b305b7462ff01",
+      "size": 7868
     },
     {
       "path": "product/vbb.py",
@@ -365,8 +365,8 @@
     },
     {
       "path": "tooling/build_candidate.py",
-      "sha256": "ef524e82dc738593acedba6f478050001dbdb8d89c85b3b57a74d40dbef51969",
-      "size": 1705
+      "sha256": "94b2732baa6a0e8b5a5d085baeb3ae3a593b24929ac00931cfb8cb45d1e3df73",
+      "size": 1833
     },
     {
       "path": "tooling/check_boundary.py",
@@ -443,8 +443,8 @@
     },
     {
       "path": ".backbone-dev/runtime-validation/STATUS.md",
-      "source_sha256": "c7eb46e5f07fc53356dee42e00f3ee3898230e7314d1f85e70c1176f75cd86fc",
-      "export_sha256": "2729dcf9554013a5c9d7675687d8c360d9d51712e10285c4036aa55e6a179c05",
+      "source_sha256": "7b5c6868180e2f99b8a6d15da8adf83d1fbbda1d438d1011de57de9bfde95821",
+      "export_sha256": "233cf6b96d9f4b45228918aecc85c36eefc645772e84fe79739fc7ec3bda7b55",
       "reason": "private path/endpoint/provider redaction; original preserved locally"
     }
   ],
@@ -459,5 +459,5 @@
       "historical binary archives (retained locally; rc5 payload rebuild available; gzip bytes differ, see REPRODUCTION.json)"
     ]
   },
-  "status": "runtime NOT_READY; selected public backup, not release certification"
+  "status": "runtime NOT_READY; rc6 frozen; first T1 pair completed, eight cells and final qualification remain"
 }
