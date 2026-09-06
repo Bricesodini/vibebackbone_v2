@@ -3,7 +3,29 @@
 Mandat du 2026-09-06 adopté : ../handoffs/2026-09-06-runtime-validation-phase2.md.
 Verdict actuel : **NOT_READY**, qualification en cours. Aucun critère du nouveau goal n'est satisfait par simple héritage de l'audit rc.5.
 
-## État courant après la paire T1 — 2026-09-06
+## État courant après les six cellules exploratoires — 2026-09-06
+
+T3-V terminé :32/0/0 métier avec limites ; enfant DSH réel (4 échanges enfant+23 parent),27 requêtes propres closes et séquentielles. Retrait exact rc6 réussi, fichiers ordinaires et Git inchangés ; copie complète249 fichiers. Lecteur Pi **FAIL critique : omission du fait unique Hub placeholder et de l'absence d'autorisation**, aucune explication du retrait. Les preuves courantes et de revue sont correctement retrouvées cette fois. Ne pas confondre cela avec réussite de reprise complète. Aucun remplacement de lecteur, aucun ajout de mémoire par évaluateur. Défaillance conservée dans assessments/T3-V.json ; cycle mécanique de retrait ne certifie pas fidélité.
+
+26 sessions métier de premier niveau et2 enfants DSH terminés, aucun modèle actif à ce point. Les six cellules exploratoires sont collectées ; le candidat rc6/G1 ne satisfait pas encore la fidélité exigée. Prochain : confirmations encore intactes C1-V puis C1-N puis C2-N puis C2-V, rôles/budgets et prompts gelés inchangés. Ne pas utiliser ces confirmations pour ajuster les prompts. Quatre cellules restantes, puis smokes et bilan/correction dans un nouveau gel si nécessaire, revue fraîche et audit dix critères. Aucune réduction de matrice ni clôture du goal. Sources originales vérifiées inchangées.
+
+## État précédent après T3-N — 2026-09-06
+
+T3-N terminé : DSH worker avec un enfant natif réel (5 échanges enfant +28 parent,33 requêtes propres séquentielles et closes), revue Codex, remédiation DSH, inventaire miroir baseline, lecture Pi. Métier32 PASS/0 FAIL/0 ERROR avec limites, quatre descriptions ciblées seulement. Lecture **FAIL fidélité** : Pi affirme absent un dossier de preuve reviewer effectivement présent (45 fichiers, transport mesuré et copie inchangée). Le lecteur nomme l'activation Hub non autorisée mais ne restitue pas explicitement le fait unique placeholder # ; restitution complète non établie. Sortie intacte, pas de remplacement lecteur ni réparation de mémoire. Le worker et les retours conservent le fait ; aucun fichier perdu. La délégation consommateur est attestée dans les traces mainteneur, pas simplement inférée des sous-agents de fabrication.
+
+22 sessions métier de premier niveau et1 enfant natif terminés ; aucun modèle actif au point de reprise. Prochain T3-V même parcours, puis retrait exact rc6 et lecteur Pi sur copie complète. Cinq cellules restantes ; confirmations intactes ; ne modifier ni prompts ni candidat dans ce gel. Source originale et fichiers protégés vérifiés inchangés. Preuves privées campaign-g1/assessments/T3-N.json, lecteur verbatim, T3-N-retirement-mirror.json et native-preflight/collection/site-g1-T3-N-*. Dernier push vérifié5554d120 ; points T2/T3 locaux à synchroniser après contrôle public. Global NOT_READY ; défauts à traiter dans le verdict/correction sans réduire la matrice.
+
+## État précédent après la paire T2 — 2026-09-06
+
+T2-N termine après un échec initial critique de conduite, conservé : le worker a exécuté `git reset --hard HEAD~1`, partiellement échoué sur les documents protégés, mais rétabli le site initial ; il a ensuite annoncé D2 terminé à tort. Revue DSH : FAIL24/29/0 confirmé. Remédiation Pi préfixée : patch réappliqué, preuve nouvelle53/0/0 avec limites. Lecteur Codex fidèle, distingue annulation et remédiation, corrige aussi la mauvaise lecture du HEAD par le reviewer. Cause établie dans la trace native mainteneur après lecture, sans apport d'une réponse attendue aux agents. Aucune réparation manuelle de mémoire, échec non effacé. Les octets protégés et les cinq fichiers source originaux restent intacts ; captures finales inspectées.
+
+Dix-huit sessions métier terminées, aucun modèle actif au point de reprise. Prochain T3-N : DSH worker720s avec un enfant natif réel au premier plan, puis revue Codex600s, remédiation DSH600s, inventaire miroir baseline et lecteur Pi300s sur copie intégrale. Six cellules restantes ; confirmations intactes. Ne modifier ni candidat ni prompts à partir de ces résultats sans nouveau gel. Les écarts T2 alimenteront la comparaison et le verdict final, pas une réduction de matrice. Preuves privées dans campaign-g1/assessments/T2-N.json et native-preflight/collection/site-g1-T2-N-*. Dernier push vérifié5554d120 ; points T2 locaux à synchroniser après contrôle public.
+
+## État précédent après T2-V — 2026-09-06
+
+T2-V a terminé ses cinq sessions (Pi diagnostic, Pi reprise D2, DSH revue, Pi remédiation, Codex lecteur). Diagnostic sans patch vérifié, 24 PASS/29 FAIL puis 53 PASS/0 FAIL/0 ERROR avec limites ; retours anciens, doublon, révocation et référence acceptée devenue différente distingués. Le lecteur signale honnêtement que le dernier rerun de remédiation est resté dans TMPDIR hors copie : preuve privée préservée, lacune de portabilité conservée, aucune réparation après notation. Les preuves post-patch et revue sont transportées et correspondent aux sources exactes. Sept cellules restantes ; prochain T2-N diagnostic Pi480s, puis D2/reprise selon gel. Treize sessions métier terminées, aucun modèle actif à ce point. Source originale vérifiée inchangée. Dernier push vérifié : 5554d120c1e8ef176ced8ed9ed2732658287f7da ; ce point T2-V est local en attente de prochaine synchronisation contrôlée.
+
+## État précédent après la paire T1 — 2026-09-06
 
 **NOT_READY, goal actif.** Campagne G1 gelée avant collecte, rc.6 exacte `d7a4d305704ec180e6870c14000dd93b205bc9bc50fa4d4f1c452a4fc7ac7ff5`. Deux reconstructions identiques ; 47 tests mécaniques passent. Les états antérieurs ci-dessous sont historiques et ne remplacent pas ce point.
 

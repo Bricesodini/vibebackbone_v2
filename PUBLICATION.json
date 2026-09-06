@@ -300,8 +300,8 @@
     },
     {
       "path": ".backbone-dev/runtime-validation/STATUS.md",
-      "sha256": "233cf6b96d9f4b45228918aecc85c36eefc645772e84fe79739fc7ec3bda7b55",
-      "size": 10459
+      "sha256": "109ca3eb9e77a19cacfd72d6bfdc084635836ad75f17b102360774a9a5148f13",
+      "size": 15938
     },
     {
       "path": ".backbone-dev/runtime-validation/phase2-entry.md",
@@ -443,8 +443,8 @@
     },
     {
       "path": ".backbone-dev/runtime-validation/STATUS.md",
-      "source_sha256": "7b5c6868180e2f99b8a6d15da8adf83d1fbbda1d438d1011de57de9bfde95821",
-      "export_sha256": "233cf6b96d9f4b45228918aecc85c36eefc645772e84fe79739fc7ec3bda7b55",
+      "source_sha256": "d7fd49811dab2ffd6bd80c6f8c8ebaf78ed16ab66ace998a4f83c9e2365dd5f6",
+      "export_sha256": "109ca3eb9e77a19cacfd72d6bfdc084635836ad75f17b102360774a9a5148f13",
       "reason": "private path/endpoint/provider redaction; original preserved locally"
     }
   ],
@@ -459,5 +459,5 @@
       "historical binary archives (retained locally; rc5 payload rebuild available; gzip bytes differ, see REPRODUCTION.json)"
     ]
   },
-  "status": "runtime NOT_READY; rc6 frozen; first T1 pair completed, eight cells and final qualification remain"
+  "status": "runtime NOT_READY: six exploratory cells collected, reader fidelity failures retained; four frozen confirmation cells unconsumed"
 }
